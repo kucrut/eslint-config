@@ -6,7 +6,7 @@ declare module '@kucrut/eslint-config' {
 	export default _default;
 	const js: import("eslint").Linter.FlatConfig[];
 	export default _default;
-	const svelte: import("eslint").Linter.FlatConfig[];
+	const svelte: import("eslint").Linter.FlatConfig;
 	export default _default;
 
 	export { js, svelte };
