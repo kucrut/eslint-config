@@ -8,7 +8,7 @@ npm add -D eslint globals @eslint/js @stylistic/eslint-plugin-js @kucrut/eslint-
 
 ## Configure
 
-## JavaScript
+### JavaScript
 
 ```js
 // eslint.config.js
