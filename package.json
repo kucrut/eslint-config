@@ -1,0 +1,41 @@
+{
+	"name": "@kucrut/eslint-config",
+	"version": "0.1.0",
+	"author": "Dzikri Aziz",
+	"description": "ESLint configuration for JS & Svelte files.",
+	"license": "MIT",
+	"packageManager": "pnpm@9.5.0",
+	"type": "module",
+	"types": "types/index.d.ts",
+	"exports": {
+		"./package.json": "./package.json",
+		".": {
+			"types": "./types/index.d.ts",
+			"import": "./configs/index.js"
+		}
+	},
+	"files": [
+		"configs",
+		"types"
+	],
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"eslint-config"
+	],
+	"scripts": {
+		"generate-types": "node scripts/generate-types.js"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.7.0",
+		"@stylistic/eslint-plugin-js": "^2.3.0",
+		"@types/eslint": "^8.56.10",
+		"@types/eslint__js": "^8.42.3",
+		"dts-buddy": "^0.5.1",
+		"eslint": "^9.7.0"
+	},
+	"peerDependencies": {
+		"@stylistic/eslint-plugin-js": "^2.3.0",
+		"eslint": ">= 9.7"
+	}
+}
