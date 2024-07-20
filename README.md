@@ -8,6 +8,8 @@ npm add -D eslint globals @eslint/js @stylistic/eslint-plugin-js @kucrut/eslint-
 
 ## Configure
 
+## JavaScript
+
 ```js
 // eslint.config.js
 
@@ -25,7 +27,15 @@ export default [
 	},
 	...configs.js,
 	{
-		ignores: [ '...' ],
+		ignores: [ /* ... */ ],
 	},
 ];
 ```
+
+### Svelte
+
+```sh
+npm add -D eslint-plugin-svelte svelte-eslint-parser
+```
+
+Then add `...configs.svelte` to the configuration array.
