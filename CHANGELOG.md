@@ -1,5 +1,11 @@
 # @kucrut/eslint-config
 
+## 0.1.2
+
+### Patch Changes
+
+-   acc8f7b: Remove deprecated rule
+
 ## 0.1.1
 
 ### Patch Changes
