@@ -43,7 +43,6 @@ export default [
 			'no-useless-constructor': 'error',
 			'no-useless-return': 'error',
 			'no-var': 'error',
-			'no-whitespace-before-property': 'error',
 			'no-with': 'error',
 			'object-shorthand': 'error',
 			'prefer-const': [ 'error', { destructuring: 'all' } ],
