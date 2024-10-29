@@ -4,7 +4,7 @@
 	"author": "Dzikri Aziz",
 	"description": "ESLint configuration for JS & Svelte files.",
 	"license": "MIT",
-	"packageManager": "pnpm@9.5.0",
+	"packageManager": "pnpm@9.12.3",
 	"type": "module",
 	"types": "types/index.d.ts",
 	"exports": {
