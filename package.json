@@ -27,23 +27,23 @@
 		"generate-types": "node scripts/generate-types.js"
 	},
 	"devDependencies": {
-		"@changesets/cli": "^2.27.7",
-		"@eslint/js": "^9.7.0",
-		"@stylistic/eslint-plugin-js": "^2.3.0",
-		"@types/eslint": "^8.56.10",
+		"@changesets/cli": "^2.27.9",
+		"@eslint/js": "^9.13.0",
+		"@stylistic/eslint-plugin-js": "^2.9.0",
+		"@types/eslint": "^9.6.1",
 		"@types/eslint__js": "^8.42.3",
-		"dts-buddy": "^0.5.1",
-		"eslint": "^9.7.0",
-		"eslint-plugin-svelte": "2.42.0",
-		"svelte": "^4.2.18 || ^5.0.0-next.192",
-		"svelte-eslint-parser": "0.40.0"
+		"dts-buddy": "^0.5.3",
+		"eslint": "^9.13.0",
+		"eslint-plugin-svelte": "2.46.0",
+		"svelte": "^5.1.4",
+		"svelte-eslint-parser": "0.43.0"
 	},
 	"peerDependencies": {
-		"@stylistic/eslint-plugin-js": "^2.3.0",
+		"@stylistic/eslint-plugin-js": "^2.9.0",
 		"eslint": ">= 9.7",
-		"eslint-plugin-svelte": "2.42.0",
-		"svelte": "^4.2.18 || ^5.0.0-next.192",
-		"svelte-eslint-parser": "0.40.0"
+		"eslint-plugin-svelte": "2.46.0",
+		"svelte": "^4.2.18 || ^5.1.4",
+		"svelte-eslint-parser": "0.43.0"
 	},
 	"peerDependenciesMeta": {
 		"eslint-plugin-svelte": {
