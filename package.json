@@ -1,6 +1,6 @@
 {
 	"name": "@kucrut/eslint-config",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"author": "Dzikri Aziz",
 	"description": "ESLint configuration for JS & Svelte files.",
 	"license": "MIT",

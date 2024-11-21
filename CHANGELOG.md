@@ -1,5 +1,11 @@
 # @kucrut/eslint-config
 
+## 0.3.1
+
+### Patch Changes
+
+- Fix dependencies
+
 ## 0.3.0
 
 ### Minor Changes
