@@ -1,5 +1,11 @@
 # @kucrut/eslint-config
 
+## 0.3.3
+
+### Patch Changes
+
+- 6df639a: Update dependencies
+
 ## 0.3.2
 
 ### Patch Changes
