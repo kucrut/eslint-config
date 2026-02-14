@@ -1,10 +1,9 @@
 declare module '@kucrut/eslint-config' {
-	namespace _default {
+	export default namespace _default {
 		export { js };
 		export { svelte };
 	}
-	export default _default;
-	const js: ({
+	export const js: ({
 		readonly rules: Readonly<import("eslint").Linter.RulesRecord>;
 	} | {
 		plugins: {
@@ -72,7 +71,6 @@ declare module '@kucrut/eslint-config' {
 			'@stylistic/computed-property-spacing': ["error", string];
 			'@stylistic/dot-location': ["error", string];
 			'@stylistic/eol-last': "error";
-			'@stylistic/func-call-spacing': "error";
 			'@stylistic/function-call-argument-newline': ["error", string];
 			'@stylistic/function-call-spacing': ["error", string];
 			'@stylistic/function-paren-newline': ["error", string];
@@ -101,8 +99,6 @@ declare module '@kucrut/eslint-config' {
 			'@stylistic/no-confusing-arrow': "error";
 			'@stylistic/no-extra-parens': ["error", string, {
 				allowParensAfterCommentPattern: string;
-				enforceForArrowConditionals: boolean;
-				enforceForNewInMemberExpressions: boolean;
 				nestedBinaryExpressions: boolean;
 				returnAssign: boolean;
 				ternaryOperandBinaryExpressions: boolean;
@@ -123,7 +119,7 @@ declare module '@kucrut/eslint-config' {
 			'@stylistic/padded-blocks': ["error", string];
 			'@stylistic/quote-props': ["error", string];
 			'@stylistic/quotes': ["error", string, {
-				allowTemplateLiterals: boolean;
+				allowTemplateLiterals: string;
 				avoidEscape: boolean;
 			}];
 			'@stylistic/rest-spread-spacing': "error";
@@ -147,8 +143,7 @@ declare module '@kucrut/eslint-config' {
 			'@stylistic/wrap-iife': "error";
 		};
 	})[];
-	export default _default;
-	const svelte: {
+	export const svelte: {
 		rules: {
 			'svelte/button-has-type': "error";
 			'svelte/derived-has-same-inputs-outputs': "error";
@@ -171,10 +166,10 @@ declare module '@kucrut/eslint-config' {
 			'svelte/no-dupe-on-directives': "error";
 			'svelte/no-dupe-use-directives': "error";
 			'svelte/no-extra-reactive-curlies': "error";
-			'svelte/no-goto-without-base': "error";
 			'svelte/no-ignored-unsubscribe': "error";
 			'svelte/no-immutable-reactive-statements': "error";
 			'svelte/no-inline-styles': "error";
+			'svelte/no-navigation-without-resolve': "error";
 			'svelte/no-reactive-functions': "error";
 			'svelte/no-reactive-literals': "error";
 			'svelte/no-reactive-reassign': "error";
@@ -213,9 +208,8 @@ declare module '@kucrut/eslint-config' {
 			'svelte/valid-each-key': "error";
 		};
 	};
-	export default _default;
 
-	export { js, svelte };
+	export {};
 }
 
 //# sourceMappingURL=index.d.ts.map
