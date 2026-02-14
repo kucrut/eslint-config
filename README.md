@@ -28,8 +28,7 @@ export default [
 ### Svelte
 
 ```sh
-# Note the exact versions of these packages, there's bug in their latest versions.
-npm add -D eslint-plugin-svelte@2.42.0 svelte-eslint-parser@0.40.0
+npm add -D eslint-plugin-svelte svelte-eslint-parser
 ```
 
 ```js
@@ -58,9 +57,6 @@ export default [
 			svelte: svelte_plugin,
 		},
 		...configs.svelte,
-	},
-	{
-		ignores: [ /* ... */ ],
 	},
 ];
 
