@@ -61,7 +61,6 @@ export default [
 			'@stylistic/computed-property-spacing': [ 'error', 'always' ],
 			'@stylistic/dot-location': [ 'error', 'property' ],
 			'@stylistic/eol-last': 'error',
-			'@stylistic/func-call-spacing': 'error',
 			'@stylistic/function-call-argument-newline': [ 'error', 'consistent' ],
 			'@stylistic/function-call-spacing': [ 'error', 'never' ],
 			'@stylistic/function-paren-newline': [ 'error', 'multiline' ],
@@ -86,8 +85,6 @@ export default [
 			'@stylistic/no-confusing-arrow': 'error',
 			'@stylistic/no-extra-parens': [ 'error', 'all', {
 				allowParensAfterCommentPattern: '@type',
-				enforceForArrowConditionals: false,
-				enforceForNewInMemberExpressions: false,
 				nestedBinaryExpressions: false,
 				returnAssign: false,
 				ternaryOperandBinaryExpressions: false,
@@ -106,7 +103,7 @@ export default [
 			'@stylistic/padded-blocks': [ 'error', 'never' ],
 			'@stylistic/quote-props': [ 'error', 'consistent' ],
 			'@stylistic/quotes': [ 'error', 'single', {
-				allowTemplateLiterals: true,
+				allowTemplateLiterals: 'never',
 				avoidEscape: true,
 			} ],
 			'@stylistic/rest-spread-spacing': 'error',
