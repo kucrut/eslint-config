@@ -1,5 +1,11 @@
 # @kucrut/eslint-config
 
+## 0.4.1
+
+### Patch Changes
+
+- e664d88f: Fix generated types
+
 ## 0.4.0
 
 ### Minor Changes
