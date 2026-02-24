@@ -1,8 +1,4 @@
 declare module '@kucrut/eslint-config' {
-	export default namespace _default {
-		export { js };
-		export { svelte };
-	}
 	export const js: ({
 		readonly rules: Readonly<import("eslint").Linter.RulesRecord>;
 	} | {
