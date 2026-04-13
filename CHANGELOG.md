@@ -1,5 +1,11 @@
 # @kucrut/eslint-config
 
+## 0.5.0
+
+### Minor Changes
+
+- 3e9e158: ESLint 10
+
 ## 0.4.1
 
 ### Patch Changes
