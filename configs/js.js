@@ -103,7 +103,7 @@ export default [
 			'@stylistic/padded-blocks': [ 'error', 'never' ],
 			'@stylistic/quote-props': [ 'error', 'consistent' ],
 			'@stylistic/quotes': [ 'error', 'single', {
-				allowTemplateLiterals: 'never',
+				allowTemplateLiterals: 'always',
 				avoidEscape: true,
 			} ],
 			'@stylistic/rest-spread-spacing': 'error',
