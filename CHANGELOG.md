@@ -1,5 +1,11 @@
 # @kucrut/eslint-config
 
+## 0.5.1
+
+### Patch Changes
+
+- Improve @stylistic/function-paren-newline rule
+
 ## 0.5.0
 
 ### Minor Changes
