@@ -63,7 +63,7 @@ export default [
 			'@stylistic/eol-last': 'error',
 			'@stylistic/function-call-argument-newline': [ 'error', 'consistent' ],
 			'@stylistic/function-call-spacing': [ 'error', 'never' ],
-			'@stylistic/function-paren-newline': [ 'error', 'multiline' ],
+			'@stylistic/function-paren-newline': [ 'error', 'consistent' ],
 			'@stylistic/generator-star-spacing': [ 'error', 'before' ],
 			'@stylistic/implicit-arrow-linebreak': [ 'error', 'beside' ],
 			'@stylistic/indent': [ 'error', 'tab', { SwitchCase: 1 } ],
